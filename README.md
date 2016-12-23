@@ -7,9 +7,10 @@ Gameplay is quite simple, your task as to go as far as you can avoiding collisio
 
 When finished it would be something like Voxel Rush mobile game by HyperBees.
 
+
 TBD:
 
-bugfixes and refactoring;
+* item 1 bugfixes and refactoring;
 
 collisions: AABB collisions with collision direction checking at first, later switch to OBB;
 
