@@ -3,7 +3,7 @@ HelloVoxel is dead simple 3D endless runner game being developed in C++ and Open
 
 ![Hello Voxel](hellovoxel.jpg?raw=true "Hello Voxel")
 
-Gameplay is quite simple, your task as to go as far as you can avoiding collisions with obstacles (latter is optional at least until I implement collision detection. yes, no collision checking for now, this game is far from ready)
+Gameplay is quite simple, your task as to go as far as you can avoiding collisions with obstacles (latter is optional at least until I implement collision detection ¯\_(ツ)_/¯ yes, no collision checking for now, this game is far from ready)
 
 When finished it would be something like Voxel Rush mobile game by HyperBees.
 
@@ -20,7 +20,9 @@ TBD:
 
 * graphics: I need to change current crappy renderer to something capable of rendering to texture and instancing and not being that slow;
 
-* postprocessing: motion blur, particles, chromatic abberations, everything that could make bare cubes look less boring;
+* postprocessing: motion blur, chromatic abberations, everything that could make bare cubes look less boring;
+
+* particles;
 
 * model loading if it makes sense for game where the only model is a cube and mostly single color textures;
 
