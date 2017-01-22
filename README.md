@@ -35,5 +35,3 @@ TBD:
 * powerups and game events like in original Voxel Rush game (powerups are this small red things and they have no effect for now due to absence of collision detection);
 
 * sound;
-
-// But first I need to get all my univercity stuff done, so no updates for next few weeks. Maybe AABB collisions
