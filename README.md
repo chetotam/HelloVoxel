@@ -20,7 +20,7 @@ TBD:
 
 * graphics: I need to change current crappy renderer to something capable of rendering to texture and instancing and not being that slow;
 
-* postprocessing: motion blur, chromatic abberations, everything that could make bare cubes look less boring;
+* postprocessing: motion blur, chromatic abberations, etc;
 
 * particles;
 
