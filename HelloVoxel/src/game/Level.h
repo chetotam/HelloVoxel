@@ -25,10 +25,10 @@ namespace game
 
 		// Grid parameters
 		// Grid is used to spawn entities uniformly
-		const int rows{ 3 };
-		const int cols{ 3 };
-		float chunk_size{ 400.0f };
-		std::array<std::array<glm::vec3, 3>, 3> grid; // TODO: Why can't create array from const?
+		static constexpr int rows{ 3 };
+		static constexpr int cols{ 3 };
+		static constexpr float chunk_size{ 400.0f };
+		std::array<std::array<glm::vec3, cols>, rows> grid;
 
 		// Indexes for main tile
 		// Player is placed on this tile and update method will track his movement from here

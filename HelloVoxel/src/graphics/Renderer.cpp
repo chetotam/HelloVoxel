@@ -23,7 +23,7 @@ graphics::Renderer::Renderer() :
 	// TODO: Check if I need this
 	//glEnable(GL_TEXTURE_2D);
 
-	// TODO: Check why this not working (mb fix normals?)
+	// TODO: Check why this not working (mb fix cube normals?)
 	//glEnable(GL_CULL_FACE);
 
 	// TODO: Enable this when scene sorting implemented
@@ -75,7 +75,6 @@ void graphics::Renderer::render(
 
 		program.set_uniform("view_Position", camera.get_position());
 
-		// hohoho hardcoded values!
 		// TODO: Fix this all. Maybe use Scene class
 		program.set_uniform("dir_Light.direction", glm::normalize(glm::vec3(-0.1f, -0.5f, 0.4f)));
 		program.set_uniform("dir_Light.ambient", { 0.4f, 0.4f, 0.4f });

@@ -14,6 +14,7 @@ display::GLFW_window::GLFW_window(int width, int height, std::string title)
 	glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 4);
 	glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 4);
 	glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
+	glfwWindowHint(GLFW_SAMPLES, 4); // This better be part of Renderer class
 
 	handle = glfwCreateWindow(width, height, "", nullptr, nullptr);
 	if (handle == nullptr) {
