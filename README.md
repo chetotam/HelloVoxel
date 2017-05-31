@@ -1,9 +1,9 @@
 # HelloVoxel
-HelloVoxel is dead simple 3D endless runner game being developed in C++ and OpenGL. It uses GLFW library to handle window/context creation and gathering input, GLAD extension loader for OpenGL and GLM for math. The only aim of this project for me is learning basic game engine design concepts. Currently it's in kind of pre-alpha stage, a lot of things are missing.
+HelloVoxel is dead simple 3D endless runner game being developed in C++ and OpenGL as my C++/gamedev learning effort. It uses GLFW library to handle window/context creation and gathering input, GLAD extension loader for OpenGL and GLM for math. Currently it's in kind of pre-alpha stage, a lot of things are missing.
 
 ![Hello Voxel](hellovoxel.jpg?raw=true "Hello Voxel")
 
-Gameplay is quite simple, your task as to go as far as you can avoiding collisions with obstacles (latter is optional at least until I implement collision detection ¯\_(ツ)_/¯ yes, no collision checking for now, this game is far from ready)
+Gameplay is quite simple, your task as to go as far as you can avoiding collisions with obstacles (latter is optional at least until I implement collision detection ¯\\_(ツ)_/¯)
 
 When finished it would be something like Voxel Rush mobile game by HyperBees.
 
@@ -18,9 +18,11 @@ TBD:
 
 * ok, better design for everything;
 
-* graphics: I need to change current crappy renderer to something capable of rendering to texture and instancing and not being that slow;
+* powerups and game events like in original Voxel Rush game (powerups are this small red things and they have no effect for now due to absence of collision detection);
 
-* postprocessing: motion blur, chromatic abberations, etc;
+* better renderer capable of rendering to texture and instancing and not being that slow;
+
+* postprocessing (motion blur, chromatic abberations, etc);
 
 * particles;
 
@@ -30,8 +32,6 @@ TBD:
 
 * scoring;
 
-* better player controls, mb make some use of keyboard, gamepad support;
-
-* powerups and game events like in original Voxel Rush game (powerups are this small red things and they have no effect for now due to absence of collision detection);
+* better player controls, gamepad support, mb make some use of keyboard;
 
 * sound;
